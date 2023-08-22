@@ -1,0 +1,618 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fab69d;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    align-self: center;
+}
+
+h3 {
+    margin-bottom: 0px;
+    margin-top: 2px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    color: black
+}
+
+input {
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+}
+
+
+button {
+    border-style: double;
+    border-radius: 4px;
+    margin-bottom: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4682B4;
+    color:#fff;
+    font-size: 10px;
+    background: linear-gradient(to right, #d09591, #a0aebd);
+}
+
+.deleteButton {
+    border-radius: 2px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+  
+}
+
+#buttonPeriod, #buttonPeriodDelete {
+   
+    border-radius: 2px;
+    margin-bottom: 1px;
+    font-size: 10px;
+    width: 80px;
+    align-self: center;
+    
+}
+
+#saveButton {
+    align-self: center;
+    margin-top: 5px;
+    display: flex;
+    flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#hiddenButton6, #hiddenButton7, #hiddenButton8, #hiddenButton9, #hiddenButton10 {
+    align-self: center;
+    
+    margin-top: 5px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  background-color: #fffff0;
+  color:#fff;
+  font-weight: 400;
+}
+
+#unhideButton6, #unhideButton7, #unhideButton8, #unhideButton9, #unhideButton10 {
+    align-self: center;
+   
+    margin-top: 5px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  background-color: #fffff0;
+  color:#fff;
+  font-weight: 600;
+  font-size: 6px;
+}
+
+label {
+    text-decoration: underline;
+}
+
+#inputTeach {
+    font-size: 11px;
+    width: 240px;
+}
+
+#inputsmall {
+    font-size: 10px;
+    width: 60px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    cursor: cell;
+    word-wrap: normal;
+    resize: none;
+    overflow: hidden;
+}
+
+.inputPeriod {
+    width: 60px;
+    height: 10px;
+    align-self: center;
+}
+
+.inputsmall {
+    width: 30px;
+    height: 10px;
+}
+
+.inputField {
+    cursor:alias;
+}
+
+#textarealg {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    border: none;
+    width: 640px;
+    height: 75px;
+    color: #778899;
+    resize: none;
+    overflow: hidden;
+}
+
+#textareamed {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    border: none;
+    width: 310px;
+    height: 75px;
+    color: #778899;
+    resize: none;
+    overflow: hidden;
+}
+
+#textareasm {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    border: none;
+    width: 40px;
+    height: 15px;
+    color: #778899;
+    resize: none;
+    overflow: hidden;
+}
+
+#textareaResources {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    border: none;
+    width: 215px;
+    height: 90px;
+    color: #778899;
+    resize: none;
+    overflow: hidden;
+}
+
+#textareaPlan {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    border: none;
+    width: 295px;
+    height: 90px;
+    color: #778899;
+    resize: none;
+    overflow: hidden;
+}
+
+.textareaTime {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    border: none;
+    width: 55px;
+    height: 70px;
+    color: #778899;
+    resize: none;
+    overflow: hidden;
+}
+
+
+#containerInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#teacherName {
+    background-color: #fff;
+    height: 25px;
+    width: 355px;
+    border-radius: 3px;
+    border: solid;
+    padding: 3px;
+}
+
+.topOfPageGradeDate {
+    background-color: #fff;
+    height: 25px;
+    width: 114px;
+    border-radius: 3px;
+    border: solid;
+    padding: 3px;
+}
+
+.day {
+    background-color: #fff;
+    height: 25px;
+    border-radius: 3px;
+    border: solid;
+    padding: 3px;
+    width: 70px;
+}
+
+#containerContacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 5px;
+}
+
+#computerInfo {
+    background-color: #fff;
+    height: 100px;
+    width: 355px;
+    border-radius: 3px;
+    border: solid;
+}
+
+#helpfulContacts {
+    background-color: #fff;
+    height: 100px;
+    width: 355px;
+    border-radius: 3px;
+    border: solid;
+}
+
+#Schedule {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.day-container {
+    display:flex;
+}
+
+#notesContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.classScheduleTitle {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#classScheduleDay1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleDay2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleDay3 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleDay4 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleDay5 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleDay6 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleDay7 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleDay8 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleDay9 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleDay10 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+#classScheduleContainer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    background-color: #fff;
+    height: auto;
+    width: 700px;
+    border-radius: 3px;
+    border: solid;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.classScheduleDays {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#period {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border-bottom: solid black;
+    align-content: center;
+}
+
+.savedPeriodDiv {
+    cursor:alias;
+}
+
+.bottomMargin {
+    margin-bottom: 30px;
+}
+
+
+#firstpgBottom {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#containerStudent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+
+#studentBehaviour {
+    background-color: #fff;
+    height: 100px;
+    width: 330px;
+    border-radius: 3px;
+    border: solid;
+}
+
+#emergProcedures {
+    background-color: #fff;
+    height: 100px;
+    width: 330px;
+    border-radius: 3px;
+    border: solid;
+}
+
+#containerPrep {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#notesExpectations {
+    background-color: #fff;
+    height: 100px;
+    width: 680px;
+    border-radius: 3px;
+    border: solid;
+}
+
+#containerClassList {
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+height: auto;
+}
+
+#classList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: #fff;
+    border: solid;
+    border-radius: 3px;
+    width: 650px;
+    height: 950px;
+    margin: auto;
+}
+
+#listNames {
+    display: flex;
+    flex-flow: column wrap;
+    width: 310px;
+    height: 550px;
+}
+
+#listNotes {
+    display: flex;
+    flex-flow: column wrap;
+    width: 310px;
+    height: 550px;
+}
+
+#studentNames {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 285px;
+    height: 12px;
+    color: #778899;
+}
+
+#eachStudentName {
+    width: 100%;
+    height: 12px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+#studentNotes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    margin-top: 15px;
+    width: 285px;
+    height: 12px;
+    color: #778899; 
+}
+
+#eachStudentNotes {
+    width: 100%;
+    height: 12px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.containerPlan {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+#planNotes {
+    display: flex;
+}
+
+.periodDetails {
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+    background-color: #fff;
+    width: 650px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    border: solid black 1.5px; 
+}
+
+.period {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100px;
+    border: solid;
+}
+
+.periodTitle {
+    height: 20px;
+    width: 70px;
+    background-color: #fff;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border: solid;
+    border-radius: 2px;
+}
+
+#periodDiv {
+    display: flex;
+}
+
+.periodDiv {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 1px;
+}
+
+#addPeriodPlanBtn {
+width: 120px;
+align-self: center;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+.insertTime {
+    width: 60px;
+    border-right: solid black 1px;
+}
+
+.periodPlan {
+    width: 300px;
+    border-right: solid black 1px;
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.resourcesNeeded {
+    width: 220px;
+}
