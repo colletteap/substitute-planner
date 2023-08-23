@@ -1,5 +1,24 @@
+@font-face {
+    font-family: 'Zeyada';
+    src: url(font/Zeyada-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'AlegreyaLight';
+    src: url(font/AlegreyaSansSC-Light.ttf) format('truetype');
+}
+
+.zeyada {
+    font-family: 'Zeyada', sans serif;
+    font-size: 20px;
+}
+
+.alegreyaLight {
+    font-family: 'AlegreyaLight', sans serif;
+}
+
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: AlegreyaLight, sans serif;
     background-color: #d18577;
 }
 
@@ -37,28 +56,27 @@ button {
     border-style: double;
     border-radius: 4px;
     margin-bottom: 1px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: AlegreyaLight, sans serif;
     background-color: #4682B4;
-    color:#fff;
+    color: #fff;
     font-size: 10px;
-    background: linear-gradient(to right, #d09591, #a0aebd);
 }
 
 .deleteButton {
     border-radius: 2px;
     margin-bottom: 1px;
     margin-top: 2px;
-  
+
 }
 
-#buttonPeriod, #buttonPeriodDelete {
-   
+#buttonPeriod,
+#buttonPeriodDelete {
     border-radius: 2px;
     margin-bottom: 1px;
     font-size: 10px;
     width: 80px;
     align-self: center;
-    
+
 }
 
 #saveButton {
@@ -66,35 +84,41 @@ button {
     margin-top: 5px;
     display: flex;
     flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-#hiddenButton6, #hiddenButton7, #hiddenButton8, #hiddenButton9, #hiddenButton10 {
+#hiddenButton6,
+#hiddenButton7,
+#hiddenButton8,
+#hiddenButton9,
+#hiddenButton10 {
     align-self: center;
-    
     margin-top: 5px;
     display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5px;
-  background-color: #fffff0;
-  color:#fff;
-  font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: 400;
 }
 
-#unhideButton6, #unhideButton7, #unhideButton8, #unhideButton9, #unhideButton10 {
+#unhideButton6,
+#unhideButton7,
+#unhideButton8,
+#unhideButton9,
+#unhideButton10 {
     align-self: center;
-   
+
     margin-top: 5px;
     display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
-  background-color: #fffff0;
-  color:#fff;
-  font-weight: 600;
-  font-size: 6px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: #fffff0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 6px;
 }
 
 label {
@@ -108,7 +132,7 @@ label {
 
 #inputsmall {
     font-size: 10px;
-    width: 60px;
+    width: 55px;
     height: 40px;
     align-items: center;
     align-content: center;
@@ -130,7 +154,7 @@ label {
 }
 
 .inputField {
-    cursor:alias;
+    cursor: alias;
 }
 
 #textarealg {
@@ -267,7 +291,7 @@ label {
 }
 
 .day-container {
-    display:flex;
+    display: flex;
 }
 
 #notesContainer {
@@ -405,7 +429,7 @@ label {
 }
 
 .savedPeriodDiv {
-    cursor:alias;
+    cursor: alias;
 }
 
 .bottomMargin {
@@ -458,11 +482,11 @@ label {
 }
 
 #containerClassList {
-display: flex;
-flex-flow: column wrap;
-justify-content: center;
-align-items: center;
-height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 
 #classList {
@@ -520,7 +544,7 @@ height: auto;
     margin-top: 15px;
     width: 285px;
     height: 12px;
-    color: #778899; 
+    color: #778899;
 }
 
 #eachStudentNotes {
@@ -560,7 +584,7 @@ height: auto;
     margin: 0px;
     padding: 0px;
     justify-content: space-between;
-    border: solid black 1.5px; 
+    border: solid black 1.5px;
 }
 
 .period {
@@ -578,7 +602,7 @@ height: auto;
     align-self: center;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     border: solid;
     border-radius: 2px;
 }
@@ -595,10 +619,10 @@ height: auto;
 }
 
 #addPeriodPlanBtn {
-width: 120px;
-align-self: center;
-margin-bottom: 0px;
-padding-bottom: 0px;
+    width: 120px;
+    align-self: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .insertTime {
@@ -609,7 +633,7 @@ padding-bottom: 0px;
 .periodPlan {
     width: 300px;
     border-right: solid black 1px;
-    display:flex;
+    display: flex;
     flex-flow: row wrap;
 }
 
