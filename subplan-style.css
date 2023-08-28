@@ -400,7 +400,7 @@ label {
 
 #classScheduleContainer {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     padding: 5px;
     background-color: #fff;
     height: auto;
